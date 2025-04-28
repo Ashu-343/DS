@@ -1,0 +1,8 @@
+export MPJ_HOME=/home/ubuntu/Downloads/mpj-v0_44  //here give path of mlj folder  (download from https://sourceforge.net/projects/mpjexpress/files/release)
+
+export PATH=$MPJ_HOME/bin:$PATH
+
+javac -cp $MPJ_HOME/lib/mpj.jar ArrSum.java //change name of file as per statement
+
+$MPJ_HOME/bin/mpjrun.sh -np 4 ArrSum      //change name of file as per statement
+

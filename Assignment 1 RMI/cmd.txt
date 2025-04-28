@@ -1,0 +1,18 @@
+Terminal 1:
+
+javac *.java
+
+
+Terminal 2:
+
+rmiregistry
+
+
+Terminal 3:
+
+java Server
+
+
+Terminal 4:
+
+java Client 

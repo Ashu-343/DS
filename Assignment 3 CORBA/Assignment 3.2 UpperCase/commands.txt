@@ -1,0 +1,13 @@
+Server:
+
+idlj -fall CaseChangingModule.idl
+javac *.java CaseChangingModule/*.java
+orbd -ORBInitialPort 1050&
+java CaseChangingServer -ORBInitialPort 1050 -ORBInitialHost localhost&
+
+Client:
+
+java CaseChangingClient -ORBInitialPort 1050 -ORBInitialHost localhost&
+
+// enter string
+// result will be Uppercased String
