@@ -1,0 +1,53 @@
+9. Implementation Steps - (Oral Points for viva)
+
+✅ Step 1: Create Web Service (CalculatorWSApplication)
+
+    Create new project → Java EE → Web Application → Name it CalculatorWSApplication.
+
+    Create package → org.calculator.
+
+    Create new Web Service class → Name: CalculatorWS.
+
+    Add simple methods like add(int a, int b).
+
+✅ Step 2: Deploy Web Service
+
+    Right click → Deploy on GlassFish Server.
+
+    IDE will start GlassFish, build and deploy automatically.
+
+✅ Step 3: Create Web Service Client (CalculatorClient)
+
+    Create new project → Web Application → Name it CalculatorClient.
+
+    Create package → org.calculator.client.
+
+    Add Java classes:
+
+        CalculatorWS.java
+
+        Add.java
+
+        AddResponse.java
+
+        CalculatorWSService.java
+
+        ObjectFactory.java
+
+    (IDE can auto-generate them by using "Web Service Client" option.)
+
+✅ Step 4: Create a Servlet or JSP
+
+    Create a simple JSP page (index.jsp).
+
+    Create a form to take input numbers.
+
+    Call service methods on submit.
+
+    Show result on the JSP page.
+
+✅ Step 5: Run the project
+
+    Right-click → Run.
+
+    Enter numbers → See the result.
